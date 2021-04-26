@@ -11,7 +11,6 @@ Description: This package will help users generate a Gephi ready csv file. We wi
   then writes the adjacency list as a CSV that GEPHI recognizes and accepts as an input. 
   GEPHI is a Free and Open Source network visualization tool commonly used in Academia. 
   GEPHI allows you to explore, manipulate, and represent various techniques in Network Analysis. 
-
 License: GNU General Public License v2.0
 Encoding: UTF-8
 LazyData: true
