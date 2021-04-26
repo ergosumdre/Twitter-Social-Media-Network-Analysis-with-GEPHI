@@ -1,7 +1,3 @@
-library("dplyr")
-library("readr")
-library("rtweet")
-
 #' Create Gephi Ready File for Twitter Social Media Network Analysis
 #'
 #' @param query character string
