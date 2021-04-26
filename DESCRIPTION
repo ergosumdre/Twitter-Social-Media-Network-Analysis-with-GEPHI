@@ -1,0 +1,23 @@
+Package: GephiReadyFile
+Type: Package
+Title: Generate Gephi Ready Social Media Networks using Twitter Data
+Version: 0.1.0
+Author: Dre Dyson
+Maintainer: Dre Dyson <ergosumdre@gmail.com>
+Description: This package will help users generate a Gephi ready csv file. We will ultize Twitter's
+  API to search for tweets, given a user's search query. Then once we receive these tweets,
+  this package will create a list of Usernames and Retweeter's usernames. From this list, we 
+  build an adjacency list, which a Twitter User is a node, and a Retweet is an edge. This package
+  then writes the adjacency list as a CSV that GEPHI recognizes and accepts as an input
+License: GNU General Public License v2.0
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    rtweet,
+    dplyr,
+    readr
+RoxygenNote: 7.1.1
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
