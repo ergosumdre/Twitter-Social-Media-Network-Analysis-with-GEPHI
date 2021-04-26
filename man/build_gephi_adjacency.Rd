@@ -27,5 +27,11 @@ build_gephi_adjacency(
 dataframe
 }
 \description{
-Create Gephi Ready File for Twitter Social Media Network Analysis
+Create Gephi Ready File for Twitter Social Media Network Analysis. This package will help users generate a Gephi ready csv file. We will ultize Twitter's
+  API to search for tweets, given a user's search query. Then once we receive these tweets,
+  this package will create a list of Usernames and Retweeter's usernames. From this list, we
+  build an adjacency list, which a Twitter User is a node, and a Retweet is an edge. This package
+  then writes the adjacency list as a CSV that GEPHI recognizes and accepts as an input.
+  GEPHI is a Free and Open Source network visualization tool commonly used in Academia.
+  GEPHI allows you to explore, manipulate, and represent various techniques in Network Analysis.
 }
