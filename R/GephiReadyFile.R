@@ -13,9 +13,11 @@ library("rtweet")
 #' @return dataframe
 #' @export
 #'
-#' @examples build_gephi_adjacency(query = "Orlando", numOfTweets = 100, twitter_api_key = "XXXXX", twitter_secret = "XXXXX", app_name = "XXXXX")
-build_gephi_adjacency <- function(query, numOfTweets, twitter_api_key, twitter_secret, app_name){
-  library(rtweet)
+
+build_gephi_adjacency <- function(query,
+                                  numOfTweets,
+                                  twitter_api_key,
+                                  twitter_secret, app_name){
 
   ## store api keys (these are fake example values; replace with your own keys)
   api_key <- twitter_api_key

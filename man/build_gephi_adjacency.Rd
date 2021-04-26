@@ -29,6 +29,3 @@ dataframe
 \description{
 Create Gephi Ready File for Twitter Social Media Network Analysis
 }
-\examples{
-build_gephi_adjacency(query = "Orlando", numOfTweets = 100, twitter_api_key = "XXXXX", twitter_secret = "XXXXX", app_name = "XXXXX")
-}
