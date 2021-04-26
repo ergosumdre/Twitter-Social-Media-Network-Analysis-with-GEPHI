@@ -1,10 +1,8 @@
 ---
 title: "Create a Gephi Ready Twitter Social Media Network File"
-output: rmarkdown::html_vignette
-vignette: >
-  %\VignetteIndexEntry{Intro}
-  %\VignetteEngine{knitr::rmarkdown}
-  %\VignetteEncoding{UTF-8}
+author: "Dre Dyson"
+date: "4/26/2021"
+output: html_document
 ---
 
 This vignette covers how to use this Gephi Ready Twitter Social Media Network package. We start with creating a Twitter Developer Account. Next we provide our Twitter Developer credentials, queries, and number of tweets to the function titled 'build_gephi_adjacency'. Finally, we write this function's output as a CSV, which Gephi understands. 
@@ -12,13 +10,6 @@ This vignette covers how to use this Gephi Ready Twitter Social Media Network pa
 In this package, we are using Twitter Users as Nodes, and Retweets as edges. 
 
 GEPHI is a Free and Open Source network visualization tool commonly used in Academia. GEPHI allows you to explore, manipulate, and represent various techniques in Network Analysis. 
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>"
-)
-```
 
 
 # Step 1:
